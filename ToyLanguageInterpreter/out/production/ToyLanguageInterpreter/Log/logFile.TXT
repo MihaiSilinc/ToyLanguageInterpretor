@@ -1,0 +1,1856 @@
+Thread: 1
+stack:
+procedure sum( a:int, b:int,){ int v; v = a + b; write(v);  }procedure product( a:int, b:int,){ int v; v = a * b; write(v);  }procedure main(){ int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  }main() | 
+
+symbols:
+
+
+procedures:
+
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+procedure sum( a:int, b:int,){ int v; v = a + b; write(v);  } | procedure product( a:int, b:int,){ int v; v = a * b; write(v);  }procedure main(){ int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  }main() | 
+
+symbols:
+
+
+procedures:
+
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+procedure sum( a:int, b:int,){ int v; v = a + b; write(v);  } | procedure product( a:int, b:int,){ int v; v = a * b; write(v);  }procedure main(){ int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  }main() | 
+
+symbols:
+
+
+procedures:
+
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+procedure product( a:int, b:int,){ int v; v = a * b; write(v);  }procedure main(){ int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  }main() | 
+
+symbols:
+
+
+procedures:
+sum -> model.procedures.Procedure@1c4febb1; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+procedure product( a:int, b:int,){ int v; v = a * b; write(v);  }procedure main(){ int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  }main() | 
+
+symbols:
+
+
+procedures:
+sum -> model.procedures.Procedure@1c4febb1; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+procedure product( a:int, b:int,){ int v; v = a * b; write(v);  } | procedure main(){ int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  }main() | 
+
+symbols:
+
+
+procedures:
+sum -> model.procedures.Procedure@1c4febb1; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+procedure product( a:int, b:int,){ int v; v = a * b; write(v);  } | procedure main(){ int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  }main() | 
+
+symbols:
+
+
+procedures:
+sum -> model.procedures.Procedure@1c4febb1; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+procedure main(){ int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  }main() | 
+
+symbols:
+
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+procedure main(){ int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  }main() | 
+
+symbols:
+
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+procedure main(){ int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  } | main() | 
+
+symbols:
+
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+procedure main(){ int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  } | main() | 
+
+symbols:
+
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+main() | 
+
+symbols:
+
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+main() | 
+
+symbols:
+
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int v; v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int v;  | v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int v;  | v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+v = 2; int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+v = 2;  | int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+v = 2;  | int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int w; w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int w;  | w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int w;  | w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+w = 5; sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+w = 5;  | sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+w = 5;  | sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+sum( v * 10, w,)write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+sum( v * 10, w,) | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+sum( v * 10, w,) | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int v; v = a + b; write(v);  |  } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int v; v = a + b; write(v);  |  } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int v;  | v = a + b; write(v);  |  } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+int v;  | v = a + b; write(v);  |  } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+v = a + b; write(v);  |  } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+v = a + b; write(v);  |  } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+v = a + b;  | write(v);  |  } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+v = a + b;  | write(v);  |  } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+write(v);  |  } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; v -> 25; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+write(v);  |  } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; v -> 25; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+
+
+
+Thread: 1
+stack:
+ } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; v -> 25; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+
+
+
+Thread: 1
+stack:
+ } | write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+a -> 20; b -> 5; v -> 25; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+
+
+
+Thread: 1
+stack:
+write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+
+
+
+Thread: 1
+stack:
+write(v); fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+
+
+
+Thread: 1
+stack:
+write(v);  | fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+
+
+
+Thread: 1
+stack:
+write(v);  | fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+
+
+
+Thread: 1
+stack:
+fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 1
+stack:
+fork(product( v, w,)); fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 1
+stack:
+fork(product( v, w,));  | fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 1
+stack:
+fork(product( v, w,));  | fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 1
+stack:
+fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+product( v, w,) | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 1
+stack:
+fork(sum( v, w,));  |  } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+product( v, w,) | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 1
+stack:
+ } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+int v; v = a * b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 3
+stack:
+sum( v, w,) | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 1
+stack:
+ } | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+int v; v = a * b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 3
+stack:
+sum( v, w,) | 
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 1
+stack:
+
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+int v;  | v = a * b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 3
+stack:
+int v; v = a + b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+int v;  | v = a * b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 3
+stack:
+int v; v = a + b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+v = a * b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 3
+stack:
+int v;  | v = a + b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+v = a * b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 3
+stack:
+int v;  | v = a + b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+v = a * b;  | write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 3
+stack:
+v = a + b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+v = a * b;  | write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 3
+stack:
+v = a + b; write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 10; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 3
+stack:
+v = a + b;  | write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 10; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 3
+stack:
+v = a + b;  | write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 0; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+
+
+
+Thread: 2
+stack:
+ } | 
+
+symbols:
+a -> 2; b -> 5; v -> 10; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+10
+
+
+
+Thread: 3
+stack:
+write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 7; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+10
+
+
+
+Thread: 2
+stack:
+ } | 
+
+symbols:
+a -> 2; b -> 5; v -> 10; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+10
+
+
+
+Thread: 3
+stack:
+write(v);  |  } | 
+
+symbols:
+a -> 2; b -> 5; v -> 7; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+10
+
+
+
+Thread: 2
+stack:
+
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+10
+7
+
+
+
+Thread: 3
+stack:
+ } | 
+
+symbols:
+a -> 2; b -> 5; v -> 7; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+10
+7
+
+
+
+Thread: 3
+stack:
+ } | 
+
+symbols:
+a -> 2; b -> 5; v -> 7; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+10
+7
+
+
+
+Thread: 3
+stack:
+
+
+symbols:
+v -> 2; w -> 5; 
+
+procedures:
+product -> model.procedures.Procedure@1c957c53; sum -> model.procedures.Procedure@1c4febb1; main -> model.procedures.Procedure@6f3a86f7; 
+
+files:
+
+
+heap:
+
+
+output:
+25
+2
+10
+7
+
+
+
